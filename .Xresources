@@ -1,0 +1,197 @@
+! ------------------------------------------------------------------------------
+! ROFI Color theme
+! Copyright: Rasmus Steinke
+! ------------------------------------------------------------------------------
+!rofi.color-enabled: true
+!rofi.color-window: #002b37, #002b37, #003642
+!rofi.color-normal: #002b37, #819396, #002b37, #003642, #819396
+!rofi.color-active: #002b37, #008ed4, #002b37, #003642, #008ed4
+!rofi.color-urgent: #002b37, #da4281, #002b37, #003642, #da4281
+!urxvt*termName: rxvt
+URxvt.scrollBar: false
+URxvt*font: xft:terminus:size=12:antialiase=true
+URxvt.letterSpace: -1
+URxvt.url-launcher: /usr/bin/firefox
+URxvt.matcher.button: 1
+URxvt.perl-ext-common: default,tabbedex,vtwheel,font-size,resize-font,matcher,clipboard
+URxvt.keysym.C-Up:     perl:font-size:increase
+URxvt.keysym.C-Down:   perl:font-size:decrease
+URxvt.keysym.C-S-Up:   perl:font-size:incglobal
+URxvt.keysym.C-S-Down: perl:font-size:decglobal
+URxvt.tabbed.new-button: false
+URxvt.geometry: 100x40
+URxvt.depth: 32
+URxvt.internalBorder: 5
+urxvt*highlightSelection: true
+urxvt*fading: 50
+urxvt*fadeColor: #252525
+Xcursor.theme: Ecliz-Arch
+
+URxvt.tabbed.tabbar-fg: 2
+URxvt.tabbed.tabbar-bg: 0
+URxvt.tabbed.tab-fg: 2
+URxvt.tabbed.tab-bg: 8
+URxvt.tabbed.autohide:  yes
+URxvt.tabbed.title: no
+
+Xft*dpi: 96
+Xft*antialias: true
+Xft*hinting: true
+Xft.hintstyle: hintsligght
+Xft.lcdfilter: lcddefault
+Xft.rgba:      rgb
+urxvt*blurRadius: 7
+
+URxvt.transparent: false
+URxvt.tintColor : #dcdccc
+URxvt.shading: 0 
+
+!*foreground: #61afef
+
+!*background: #2B2B2B
+!
+urxvt*boldMode:      on
+urxvt*colorMode:     on
+urxvt*colorBDMode:   on
+urxvt*colorULMode:   on
+urxvt*underLine:     on
+
+urxvt*colorBD:		#275FA0
+urxvt*colorUL:		#E84C24
+#define S_base03        #002b36
+#define S_base02        #073642
+#define S_base01        #586e75
+#define S_base00        #657b83
+#define S_base0         #839496
+#define S_base1         #93a1a1
+#define S_base2         #eee8d5
+#define S_base3         #fdf6e3
+
+*background:            S_base03
+*foreground:            S_base0
+*fadeColor:             S_base03
+*cursorColor:           S_base1
+*pointerColorBackground: S_base01
+*pointerColorForeground: S_base1
+
+#define S_yellow        #b58900
+#define S_orange        #cb4b16
+#define S_red           #dc322f
+#define S_magenta       #d33682
+#define S_violet        #6c71c4
+#define S_blue          #268bd2
+#define S_cyan          #2aa198
+#define S_green         #859900
+
+!! black dark/light
+*color0:                S_base02
+*color8:                S_base03
+
+!!! red dark/light
+*color1:                S_red
+*color9:                S_orange
+
+!! green dark/light
+*color2:                S_green
+*color10:               S_base01
+
+!! yellow dark/light
+*color3:                S_yellow
+*color11:               S_base00
+
+!! blue dark/light
+*color4:                S_blue
+*color12:               S_base0
+
+!! magenta dark/light
+*color5:                S_magenta
+*color13:               S_violet
+
+!! cyan dark/light
+*color6:                S_cyan
+*color14:               S_base1
+
+!! white dark/light
+*color7:                S_base2
+*color15:               S_base3
+
+!! black dark/light
+!!*color0: #2B2B2B
+!!*color8: #002b36
+! #002b36
+!! red dark/light
+!*color1: #dc322f
+!*color9: #cb4b16
+
+!! green dark/light
+!*color2: #859900
+!*color10: #586e75
+
+!! yellow dark/light
+!*color3: #b58900
+!*color11: #657b83
+
+!! blue dark/light
+!*color4: #268bd2
+!*color12: #839496
+
+!! magenta dark/light
+!*color5: #d33682
+!*color13: #6c71c4
+
+!! cyan dark/light
+!*color6: #2aa198
+!*color14: #93a1a1
+
+!! white dark/light
+!*color7: #eee8d5
+!*color15: #fdf6e3
+!eee8d5
+URxvt.resize-font.smaller: C-Down
+URxvt.resize-font.bigger: C-Up
+
+
+
+!#define t_foreground:  #c8ccd4
+!#define t_background:  #2b2b2b
+!#define t_red:         #be5046
+!#define t_blue:        #61afef
+!#define t_orange:      #d19a66
+!States: bg, fg, bgalt, hlbg, hlfg
+rofi.color-enabled: true
+rofi.fuzzy: true
+rofi.dpi: 220
+rofi.hide-scrollbar: true
+rofi.color-normal: #2b2b2b,#c8ccd4,#2b2b2b,#2b2b2b,#61afef
+rofi.color-urgent: #2b2b2b,#be5046,#2b2b2b,#2b2b2b,#d19a66
+rofi.color-active: #2b2b2b,#c8ccd4,#2b2b2b,#2b2b2b,#61afef
+!states: background, border
+rofi.color-window: #2b2b2b,#61afef
+
+rofi.separator-style: solid
+rofi.sidebar-mode: false
+rofi.bw: 2
+rofi.columns: 1
+rofi.padding: 50
+rofi.eh: 1
+rofi.line-margin: 35
+
+!rofi.fullscreen: true
+rofi.xoffset: 0
+rofi.yoffset: 350
+!rofi.opacity: 100
+!rofi.fake-transparency: false
+rofi.location: 2
+rofi.width: 40
+rofi.font: Source Sans Pro 15
+rofi.lines: 3
+
+rofi.border-radius: 8
+
+Fonts {{{
+Xft.antialias: true
+Xft.hinting:   true
+Xft.rgba:      rgb
+Xft.hintstyle: hintfull
+Xft.dpi:       220
+}}}
